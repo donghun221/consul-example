@@ -1,32 +1,32 @@
 {
   "Datacenter": "hkdc",
-  "ID": "40e4a323-2192-161a-0510-9bf59fe950b5",
-  "Node": "fake-node-2",
-  "Address": "2.2.2.2",
+  "ID": "40e4a323-8945-161a-0510-9bf59fe950b5",
+  "Node": "fake-node-3",
+  "Address": "3.3.3.3",
   "TaggedAddresses": {
-    "lan": "2.2.2.2",
-    "wan": "2.2.2.2"
+    "lan": "3.3.3.3",
+    "wan": "3.3.3.3"
   },
   "NodeMeta": {
     "external-node": "true",
     "external-probe": "true"
   },
   "Service": {
-    "ID": "fake-service-2",
-    "Service": "fake-service-2",
+    "ID": "fake-service-3",
+    "Service": "fake-service-3",
     "Tags": [
       "fake"
     ],
-    "Address": "2.2.2.2",
+    "Address": "3.3.3.3",
     "Port": 8000
   },
   "Checks": [{
-    "Node": "fake-node-2",
-    "CheckID": "service:fake-service-2",
+    "Node": "fake-node-3",
+    "CheckID": "service:fake-service-3",
     "Name": "Fake Check",
     "Notes": "",
     "Status": "passing",
-    "ServiceID": "fake-service-2",
+    "ServiceID": "fake-service-3",
     "Definition": {
       "HTTP": "http://localhost:8000/health",
       "Interval": "10s",
