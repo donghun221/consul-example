@@ -3,19 +3,19 @@
     "Check": {
       "Verb": "cas",
       "Check": {
-        "Node": "fake-node-2",
-        "CheckID": "service:fake-service-2",
+        "Node": "fake-node-3",
+        "CheckID": "service:fake-service-3",
         "Name": "Fake Check",
         "Status": "warning",
-        "ServiceID": "fake-service-2",
-        "ServiceName": "fake-service-2",
+        "ServiceID": "fake-service-3",
+        "ServiceName": "fake-service-3",
         "ServiceTags": ["fake"],
         "Definition": {
-          "HTTP": "http://localhost:8080i/health",
+          "HTTP": "http://localhost:8080/health",
           "Interval": "10s",
           "Timeout": "5s"
         },
-        "ModifyIndex": 1466709
+        "ModifyIndex": <TBD>
       }
     }
   }
