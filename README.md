@@ -1,5 +1,5 @@
 # Consul Demo UI Link
-http://http://124.156.122.145
+http://124.156.122.145
 
 # Register A service
 curl --request PUT --data @service.json http://124.156.122.145/v1/catalog/register
